@@ -13,7 +13,7 @@ Send data to an IoT dashboard: The system should be able to send the current tim
 Update values periodically: The system should be abBy accomplishing the above objectives, this project will enable the user to monitor the current time, temperature, and humidity values remotely, making it useful for a range of applications, including home automation, weather monitoring, and indoor climate control.
 le to update the current time, temperature, and humidity values periodically (e.g., every 10 seconds) on the LCD screen and IoT dashboard.
 
-#Materials Required
+**Materials Required**
 
 Arduino board (Uno, Nano, etc.)
 Real-time clock (RTC) module (e.g., DS1307, DS3231)
@@ -34,7 +34,7 @@ DHT library
 LiquidCrystal_I2C library
 Adafruit IO Arduino library (for IoT dashboard)
 
-#Implementation
+**Implementation**
 
 The project is implemented as follows:
 Connect the hardware components to the Arduino board as follows:
@@ -61,7 +61,7 @@ Use a third-party IoT dashboard service (e.g., Thingspeak, Blynk) to send the da
 Repeat the above steps periodically:
 Use the delay() function to set a time interval (e.g., 10 seconds) and repeat the above steps periodically.
 
-#Conclusion
+**Conclusion**
 
 By accomplishing the above objectives, this project will enable the user to monitor the current time, temperature, and humidity values remotely, making it useful for a range of applications, including home automation, weather monitoring, and indoor climate control.
 Here are some potential use cases for the project:
