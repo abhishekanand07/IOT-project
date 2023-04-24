@@ -1,4 +1,4 @@
-#Project Description
+**Project Description**
 
 The WiFi synched clock and climate monitoring project is an IoT-based project that monitors and displays real-time temperature and humidity levels from both local and online sources. It also keeps track of accurate time with the help of the NTP server API and an RTC module.
 #Project Objectives
